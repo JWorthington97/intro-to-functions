@@ -1,3 +1,8 @@
+/**
+ * Finds the longest string in an array of strings
+ * @param {string[]} list - array of strings
+ * @returns {string} longest string
+ */
 function longestInList(list) {
     let longest = []
     if (list.length === 0) { // list === [] does NOT work here
