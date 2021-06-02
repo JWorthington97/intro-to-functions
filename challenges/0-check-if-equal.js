@@ -1,3 +1,9 @@
+/**
+ * Compares two numbers to see if they are equal
+ * @param {number} x - first number
+ * @param {number} y - second number
+ * @returns {boolean} - true if `x` equals `y`, false if `x` does not equal `y`
+ */
 function isEqual(x, y) {
     if (x === y) {
         return true
