@@ -1,3 +1,9 @@
+/**
+ * Replaces any occurences of strings from `banList` in the input string with '*****'
+ * @param {string} string - input string
+ * @param {string[]} banList - strings to replace with '*****' if found
+ * @returns {string} input string with any strings found in `banList` replaces with '*****'
+ */
 function censorMessage(string, banList) {
     let words = string.split(" ")
     for (word in words) {
